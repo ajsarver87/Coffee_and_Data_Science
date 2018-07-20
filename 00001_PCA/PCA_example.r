@@ -23,7 +23,7 @@ summary(df.pca)
 #Scree Plot, Looks Like I can use 3 or 4 PC's to decribe the data, instead of all 9 variable
 plot(df.pca, type = "l")
 
-#plot the data according to the first two PCs, explains abotu 85% of the data
+#plot the data according to the first two PCs, explains about 85% of the data
 autoplot(df.pca, label = TRUE, scale = 0)
 
 #Apply the same ideas to the Credit Card Fraud data Set
